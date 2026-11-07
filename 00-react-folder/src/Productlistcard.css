@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+html, body{
+  width: auto;
+  height: auto;
+  background-color: rgb(180, 180, 180);
+
+}
+
+.product-card-title{
+  font-family: 'roboto', sans-serif;
+  font-size: 22px;
+  margin: 10px 0;
+  padding: 6px;
+}
+
+.product-card-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-card:hover{
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.product-image{
+  padding: 12px;
+  width: 200px;
+  height: 200px;
+  border-radius: 32px;
+}
+
+.product-card{
+  width:  auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.productDetailsBox{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  height: 200px;
+  /* padding: 20px; */
+}
+
+.product-card-description{
+  width: 300px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+  padding: 4px;
+}
+
+.product-card-price{
+  color: rgb(31, 96, 216);
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.product-card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  padding: 0px 8px 0px 20px;
+}
+
+.instockBox{
+  padding: 10px 16px;
+  color: #4CAF50;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.deletecontainer{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  /* padding: 10px; */
+  width: 100px;
+}
+
+.deleteBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  color: white;
+  background-color: #363ff4;
+  border-radius: 50%;
+}
+
+.deleteBox:active{
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
